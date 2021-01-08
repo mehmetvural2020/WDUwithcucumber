@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public abstract class Driver {
     public static WebDriver getDriver() {
-        System.setProperty("webdriver.chrome.driver","webdriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","webdriver/chromedriver");
         return new ChromeDriver();
     }
 }
