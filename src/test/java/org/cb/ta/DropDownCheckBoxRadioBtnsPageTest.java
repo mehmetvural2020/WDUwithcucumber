@@ -19,7 +19,7 @@ public class DropDownCheckBoxRadioBtnsPageTest extends BaseTest{
 
   @Test
   public void testSelectAnOptionFromDropDownMenu() {
-    WebElement selectedOption = dropDownCheckBoxRadioBtnsPage.selectAnOptionFromDropDownMenu("python");
+    WebElement selectedOption = dropDownCheckBoxRadioBtnsPage.selectAnOptionFromDropDownMenu("python",1);
     assertEquals(selectedOption.getAttribute("value"), "python");
   }
 
