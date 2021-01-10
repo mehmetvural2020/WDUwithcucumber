@@ -42,12 +42,9 @@ public class DropDownTest extends BaseTest {
     public void selectOneOfTheWebpageToolFromTheThirdDropDownMenu() {
         WebElement selectedOption = dropDownCheckBoxRadioBtnsPage.selectAnOptionFromDropDownMenu("css",3);
         assertEquals(selectedOption.getAttribute("value"), "css");
-
     }
 
     @Then("User selects {int} drop down menu items")
     public void userSelectsDropDownMenuItems(int arg0) {
     }
-
-
 }
